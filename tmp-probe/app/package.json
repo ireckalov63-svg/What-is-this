@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@astryxdesign/build": "^0.7.0",
+    "@astryxdesign/core": "^0.7.0",
+    "@astryxdesign/theme-neutral": "^0.7.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
