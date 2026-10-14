@@ -1,0 +1,26 @@
+/**
+ * Глобальные стили приложения. Стекло (.lg-glass и т.п.) живёт в пакете liquid-gil.
+ */
+
+html { background: #050506; }
+body { margin: 0; overscroll-behavior-y: none; }
+
+/* Появление секций при прокрутке */
+.reveal { opacity: 0; transform: translateY(18px); transition: opacity .5s ease, transform .5s ease; }
+.reveal.is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .reveal.is-visible { opacity: 1; transform: none; transition: none; }
+}
+
+/* Нижняя навигация не должна перекрывать содержимое */
+.page-pad-bottom { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
+
+/* Стеклянная кнопка на hero: собственный backdrop-слой, текст изолирован */
+.hero-cta { isolation: isolate; }
+.hero-cta > span { position: relative; z-index: 2; text-shadow: 0 1px 2px rgba(0,0,0,.35); }
+
+/* Табы слотов */
+.slot-chip { min-width: 74px; }
+.slot-chip[data-busy="true"] { text-decoration: line-through; opacity: .45; }
+
+img { -webkit-user-drag: none; }

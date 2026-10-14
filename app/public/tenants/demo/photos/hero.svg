@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#05070c"/><stop offset="1" stop-color="#101a2b"/></linearGradient>
+<radialGradient id="sh" cx=".5" cy=".9" r=".8"><stop offset="0" stop-color="#4690FF" stop-opacity=".25"/><stop offset="1" stop-color="transparent"/></radialGradient></defs>
+<rect width="1200" height="800" fill="url(#g)"/><rect width="1200" height="800" fill="url(#sh)"/>
+<g transform="translate(120.0,336.0)">
+<path d="M0 60 Q10 20 60 18 L504.0 12 Q660.0 -6 864.0 14 L960 22 Q1032 30 1032 46 L1032 62 Q1032 70 76 70 L20 70 Q0 70 0 60 Z" fill="#17283f" stroke="#4690FF" stroke-width="2"/>
+<circle cx="288" cy="70" r="16" fill="#111" stroke="#4690FF" stroke-width="3"/>
+<circle cx="792" cy="70" r="16" fill="#111" stroke="#4690FF" stroke-width="3"/>
+<path d="M360 16 L600 14 L624 30 L336 30 Z" fill="#0d1b2a" opacity=".85"/>
+</g>
+<text x="24" y="772" font-family="system-ui" font-size="72" fill="#fff" opacity=".9">AquaGloss Detailing</text>
+</svg>
